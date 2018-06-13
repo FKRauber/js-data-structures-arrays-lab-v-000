@@ -10,10 +10,10 @@ function destructivelyPrependDriver(name) {
   drivers.unshift(name);
 }
 
-function destructivelyRemoveLastDriver(name) {
+function destructivelyRemoveLastDriver() {
   drivers.pop();
 }
 
-functions destructivelyRemoveFirstDriver(name) {
+functions destructivelyRemoveFirstDriver() {
   drivers.shift();
 }
